@@ -1,11 +1,9 @@
 # AZU-DL a very simple youtube downloader 
-
-A **C# Windows Forms Application** for searching and exploring anime movies and series!
-Version: Beta 0.1
+Version: 1.0
 
 ---
 
-**⏬[Download](https://github.com/TheGreatAzizi/AZU-DL/releases/download/v1.0/AZU-DL.zip)**
+**⏬[Download **Win 64bit**](https://github.com/TheGreatAzizi/AZU-DL/releases/download/v1.0/AZU-DL.zip)**
 
 ---
 

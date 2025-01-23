@@ -16,7 +16,7 @@ Version: 1.0
 
 ## Screenshots 🖼️
 <p align="center">
-    <img src="./img/01.png" width="25%" />
+    <img src="./img/001.png" width="25%" />
 </p>
 
 

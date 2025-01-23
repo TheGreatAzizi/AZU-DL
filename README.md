@@ -5,7 +5,7 @@ Version: Beta 0.1
 
 ---
 
-**⏬[Download](https://github.com/TheGreatAzizi/MAS---MAX/releases/download/v0.1/MAS.-.MAX.exe)**
+**⏬[Download](https://github.com/TheGreatAzizi/AZU-DL/releases/download/v1.0/AZU-DL.zip)**
 
 ---
 

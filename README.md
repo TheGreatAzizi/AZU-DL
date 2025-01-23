@@ -3,22 +3,14 @@ Version: 1.0
 
 ---
 
-**⏬[Download **Win 64bit**](https://github.com/TheGreatAzizi/AZU-DL/releases/download/v1.0/AZU-DL.zip)**
+**⏬[Download for Win 64bit](https://github.com/TheGreatAzizi/AZU-DL/releases/download/v1.0/AZU-DL.zip)**
 
 ---
 
 ## Features ✨
-- 🍿 **Anime**: Search for anime using Romaji and English names and get its complete information, including the order of watching related anime
-  - Description
-  - Release Date
-  - Genre
-  - Rating and .....
-- 🌐 **API Integration**: Fetch real-time data from an anime database [AniList API](https://anilist.gitbook.io/anilist-apiv2-docs/).
-
----
-
-## In the next update 📌
- - 🎬 **Movies and series**: In the next update, we are trying to get the information about movies and serials of the world using the API of the OMDB site!
+  - Download video
+  - Download subtitles
+  - Download audio only
 
 ---
 
@@ -35,6 +27,5 @@ Version: 1.0
 ---
 
 ## Note ⚠️
-**Due to the filtering of anilist website APIs in Iran, you must use a VPN**
-> You may need to install .net 8 to run
+**Due to the filtering of YT APIs in Iran, you must use a VPN**
 

@@ -6,6 +6,7 @@ import time
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import socket
+import webbrowser
 
 default_download_folder = os.path.join(os.path.expanduser('~'), 'Downloads')
 
@@ -111,7 +112,7 @@ def add_context_menu(widget):
     widget.bind("<Control-x>", lambda e: widget.event_generate("<<Cut>>"))
 
 app = tk.Tk()
-app.title("YouTube Downloader")
+app.title("AZU-DL | YouTube Downloader")
 app.resizable(False, False)
 app.grid_columnconfigure(0, weight=1)
 tk.Label(app, text="Enter YouTube Video URL(s) (one per line):").grid(row=0, column=0, pady=5, sticky="w")
@@ -164,6 +165,11 @@ tk.Button(app, text="Start Download", command=start_download, bg="green", fg="wh
 def on_closing():
     if messagebox.askokcancel("Quit", "Do you want to stop downloads and exit?"):
         app.destroy()
+        
+def open_update_link():
+    webbrowser.open("https://github.com/TheGreatAzizi/AZU-DL")
+
+tk.Button(app, text="Update", command=open_update_link, bg="blue", fg="white").grid(row=15, column=1, pady=10, padx=5)
 
 app.protocol("WM_DELETE_WINDOW", on_closing)
 app.mainloop()
